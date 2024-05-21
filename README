@@ -13,12 +13,55 @@ A simple Web Application Firewall (WAF) to protect against SQL Injection, Cross-
 - Python 3.x
 - Flask
 
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/web-application-firewall.git
+    cd web-application-firewall
+    ```
+
+2. Install the dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
 ## Usage
-python app.py
+1. Run the application:
+    ```bash
+    python app.py
+    ```
+
+2. Access the web application in your browser:
+    ```
+    http://127.0.0.1:5000/
+    ```
+
+## Running Tests
+1. Install the test dependencies (if any):
+    ```bash
+    pip install unittest
+    ```
+
+2. Run the tests:
+    ```bash
+    python -m unittest discover tests
+    ```
+
+## Example Endpoints
+- Root URL:
+    ```
+    http://127.0.0.1:5000/
+    ```
+
+- Search Endpoint:
+    ```
+    http://127.0.0.1:5000/search?q=test
+    ```
+
+- Submit Endpoint:
+    ```bash
+    curl -X POST -d "data=test" http://127.0.0.1:5000/submit
+    ```
 
 ## Disclaimer
 This tool is for educational purposes only. Do not use it without proper authorization.
-
-## Installation
-```bash
-pip install -r requirements.txt
