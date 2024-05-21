@@ -1,0 +1,24 @@
+# Web Application Firewall (WAF)
+
+A simple Web Application Firewall (WAF) to protect against SQL Injection, Cross-Site Scripting (XSS), Command Injection, and Directory Traversal attacks.
+
+## Features
+- Blocks SQL Injection
+- Blocks Cross-Site Scripting (XSS)
+- Blocks Command Injection
+- Blocks Directory Traversal
+- Logging and reporting
+
+## Requirements
+- Python 3.x
+- Flask
+
+## Usage
+python app.py
+
+## Disclaimer
+This tool is for educational purposes only. Do not use it without proper authorization.
+
+## Installation
+```bash
+pip install -r requirements.txt
